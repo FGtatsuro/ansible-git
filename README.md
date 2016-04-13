@@ -46,6 +46,11 @@ Local requirements are as follows.
 - Ansible (>= 2.0.0)
 - Docker (>= 1.10.1)
 
+Notes
+-----
+
+This role installs latest git from package system.
+
 License
 -------
 
