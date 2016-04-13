@@ -1,2 +1,5 @@
 ---
 # tasks file for git(On Debian family)
+- name: Install latest Git with APT
+  apt: name=git update_cache=yes cache_valid_time=3600 install_recommends=no state=latest
+  become: yes
