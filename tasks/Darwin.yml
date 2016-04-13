@@ -1,2 +1,4 @@
 ---
 # tasks file for git(On OSX)
+- name: Install latest Git with Homebrew
+  homebrew: name=git update_homebrew=yes state=latest

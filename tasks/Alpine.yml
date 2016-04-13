@@ -1,2 +1,5 @@
 ---
 # tasks file for git(On Alpine Linux)
+- name: Install latest Git with APK
+  apk: name=git update_cache=yes state=latest
+  become: yes
