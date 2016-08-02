@@ -1,0 +1,6 @@
+---
+# tasks file for git(On RedHat family)
+# ATTENTION: RedHat families are NOT supported officially. There is no test about these tasks.
+- name: Install latest Git
+  yum: name=git update_cache=yes state=latest
+  become: yes
